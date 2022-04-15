@@ -1,0 +1,71 @@
+{
+  "name": "@siddjain/react-formik-multi-step-form",
+  "version": "0.1.0",
+  "description": "a package that provides helper methods to create multi-step forms. depends on react, bootstrap, draft-js and formik. ",
+  "main": "./dist/cjs/index.js",
+  "module": "./dist/esm/index.js",
+  "types": "./dist/esm/index.d.ts",  
+  "scripts": {
+    "build": "rm -rf dist && tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "rm -rf ./dist && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siddjain/react-formik-multi-step-form.git"
+  },  
+  "keywords": [
+    "react",
+    "formik",
+    "forms",
+    "multi-step",
+    "form"
+  ],
+  "author": "Siddharth Jain",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/siddjain/react-formik-multi-step-form/issues"
+  },
+  "homepage": "https://github.com/siddjain/react-formik-multi-step-form#readme",
+  "dependencies": {    
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.2",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^13.5.0",    
+    "@types/jest": "^27.4.0",
+    "@types/node": "^16.11.25",
+    "@types/react": "^17.0.39",
+    "@types/react-dom": "^17.0.11",    
+    "@types/draft-js": "^0.11.9",
+    "@types/react-draft-wysiwyg": "^1.13.4",
+    "@types/wojtekmaj__react-datetimerange-picker": "^3.0.2",
+    "@wojtekmaj/react-datetimerange-picker": "^3.5.0",        
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.3"
+  },
+  "peerDependencies": {
+    "bootstrap": ">=5.0.0",
+    "react": "^17.x.x",
+    "react-bootstrap": ">=2.0.0",
+    "react-dom": "^17.x.x",
+    "draft-js": ">=0.11.7",
+    "lodash": ">=4.17.21",
+    "react-draft-wysiwyg": ">=1.14.7",
+    "react-datetime-picker": ">=3.5.0",
+    "immutable": ">=4.0.0",
+    "styled-components": ">=5.3.3",
+    "yup": ">=0.32.11",
+    "formik": ">=2.2.9"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "src/**/*.tsx",
+    "dist/**/*.d.ts*",
+    "dist/**/*.js",
+    "dist/**/*.map"
+  ]
+}
