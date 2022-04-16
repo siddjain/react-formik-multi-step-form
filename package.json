@@ -45,16 +45,14 @@
   "peerDependencies": {
     "bootstrap": ">=5.0.0",
     "draft-js": ">=0.11.7",
-    "formik": ">=2.2.9",
-    "immutable": ">=4.0.0",
+    "formik": ">=2.2.9",    
     "lodash": ">=4.17.21",
-    "react": "^17.x.x",
+    "react": ">=17.x.x",
     "react-bootstrap": ">=2.0.0",
     "react-datetime-picker": ">=3.5.0",
-    "react-dom": "^17.x.x",
+    "react-dom": ">=17.x.x",
     "react-draft-wysiwyg": ">=1.14.7",
     "styled-components": ">=5.3.3",
-    "yup": ">=0.32.11",
     "@wojtekmaj/react-datetimerange-picker": ">=3.5.0"    
   },
   "publishConfig": {
