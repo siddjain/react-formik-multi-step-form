@@ -59,7 +59,8 @@
     "access": "public"
   },
   "files": [
-    "src/**/*.tsx",
+    "src/**/*.ts*",
+    "src/**/*.js",
     "dist/**/*.d.ts*",
     "dist/**/*.js",
     "dist/**/*.map"
