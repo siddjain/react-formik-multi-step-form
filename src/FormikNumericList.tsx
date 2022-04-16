@@ -7,7 +7,7 @@ interface FormikNumericListProps extends ListProps {
   name: string;
 }
 
-const FormikNumericList: React.FunctionComponent<FormikNumericListProps> = (
+export const FormikNumericList: React.FunctionComponent<FormikNumericListProps> = (
   props: FormikNumericListProps
 ) => {
   const { setFieldValue } = useFormikContext();
@@ -24,5 +24,3 @@ const FormikNumericList: React.FunctionComponent<FormikNumericListProps> = (
     />
   );
 };
-
-export default FormikNumericList;

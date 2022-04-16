@@ -8,7 +8,7 @@ interface FormikSwitchProps {
   label?: string;
 }
 
-const FormikSwitch: React.FunctionComponent<FormikSwitchProps> = (
+export const FormikSwitch: React.FunctionComponent<FormikSwitchProps> = (
   props: FormikSwitchProps
 ) => {
   const { setFieldValue } = useFormikContext();
@@ -28,5 +28,3 @@ const FormikSwitch: React.FunctionComponent<FormikSwitchProps> = (
     />
   );
 };
-
-export default FormikSwitch;

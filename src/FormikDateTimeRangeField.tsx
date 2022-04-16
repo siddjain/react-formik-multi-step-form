@@ -30,7 +30,7 @@ const DateRangePicker: React.FunctionComponent<DateTimeRangePickerProps> = (
   return <Picker {...props}></Picker>;
 };
 
-const FormikDateTimeRangeField = ({ ...props }) => {
+export const FormikDateTimeRangeField = ({ ...props }) => {
   const { setFieldValue } = useFormikContext();
   const [field] = useField(props.name);
 
@@ -47,5 +47,3 @@ const FormikDateTimeRangeField = ({ ...props }) => {
     />
   );
 };
-
-export default FormikDateTimeRangeField;

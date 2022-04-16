@@ -84,7 +84,7 @@
        }
      `;
      
-     const FormikRichTextEditor: React.FunctionComponent<FormikFormikRichTextEditorProps> = (
+     export const FormikRichTextEditor: React.FunctionComponent<FormikFormikRichTextEditorProps> = (
        props: FormikFormikRichTextEditorProps
      ) => {
        const [field] = useField(props.name);
@@ -143,5 +143,5 @@
        );
      };
      
-     export default FormikRichTextEditor;
+     
      

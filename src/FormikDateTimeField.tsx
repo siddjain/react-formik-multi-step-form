@@ -37,7 +37,7 @@ const Picker = styled(DateTimePicker)`
   }
 `;
 
-const FormikDateTimeField: React.FunctionComponent<FormikDateTimeFieldProps> = (
+export const FormikDateTimeField: React.FunctionComponent<FormikDateTimeFieldProps> = (
   props: FormikDateTimeFieldProps
 ) => {
   const { setFieldValue } = useFormikContext();
@@ -55,5 +55,3 @@ const FormikDateTimeField: React.FunctionComponent<FormikDateTimeFieldProps> = (
     />
   );
 };
-
-export default FormikDateTimeField;

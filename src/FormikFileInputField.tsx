@@ -7,7 +7,7 @@ interface FormikFileInputFieldProps extends FileInputProps {
   name: string;
 }
 
-const FormikFileInputField: React.FunctionComponent<FormikFileInputFieldProps> = (
+export const FormikFileInputField: React.FunctionComponent<FormikFileInputFieldProps> = (
   props: FormikFileInputFieldProps
 ) => {
   const { setFieldValue } = useFormikContext();
@@ -24,5 +24,3 @@ const FormikFileInputField: React.FunctionComponent<FormikFileInputFieldProps> =
     />
   );
 };
-
-export default FormikFileInputField;
